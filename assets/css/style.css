@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Raleway;
+    src: url(/trilha-css-desafio-01/assets/fonts/Raleway-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: black;
+    
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 605px;
+    border: 0px,0px,1px,0px;    
+    border-color: #33a8db ;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 268px;
+    height: 268px;
+}
+
+.banner-content{
+    width: hug(510px);
+    height: hug(393px);
+    top: 56px;
+    left: 465px;
+    gap: 16px;
+}
+
+.logo+h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 434px;
+    height: 47px;
+    background-image: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900 ;
+    font-size: 40px;
+    line-height: 46.96px;
+    text-align: center; 
+    font-family: Raleway;
+    text-transform: uppercase;
+       
+}
+
+.logo+h1+p{
+    width: 510px;
+    height: 46px;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23,48px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+}
+
+button{
+    width: 326px;
+    height: 57px;
+    top: 473px;
+    left: 557px;
+    border: 2px;
+    padding: 19px,91px,19px,91px;
+    gap: 31px;
+    letter-spacing: .21em;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-style: solid;
+    border-color: #1572B7;
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: 900;
+    line-height: 18,78px;
+    letter-spacing: 21%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#course-content{
+    width: 792px;
+    height: 325px;
+    top: 723px;
+    left: 324px;
+    gap: 24px;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+h2{
+    color: #33A8DB;
+    width: 477px;
+    height: 38px;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37,57px;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-left:  auto;
+    
+    
+}
